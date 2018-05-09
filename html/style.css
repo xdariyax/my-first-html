@@ -1,0 +1,18 @@
+.container {
+	width: 950px;
+	margin: 0 auto;
+	background: white;
+}
+h1 {	
+	background: red;
+}
+.dasha {
+	background: green;
+	float: left;
+	width: 33.33%
+}
+@media (max-width: 576px) {
+	.dasha {
+		width: 100% !important;
+	}
+}
